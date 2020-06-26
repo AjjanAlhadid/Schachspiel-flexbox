@@ -1,0 +1,22 @@
+.article1 {
+  border: 2px black solid;
+  border-collapse: collapse;
+
+  
+}
+
+.flexbox {
+  
+  border: black 2px solid;
+  width: 60px;
+  height: 60px;
+
+}
+
+.flexbox:nth-child(odd) :nth-child(even) {
+  background: black;
+}
+.flexbox:nth-child(even) :nth-child(odd) {
+  background-color: black;
+}
+
